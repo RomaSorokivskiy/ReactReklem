@@ -193,5 +193,63 @@
       }
     }
   }
+  .services{
+    display: flex;
+    justify-content: center;
+    .caption{
+      margin-top: 75px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      h2{
+        font-size: 18px;
+        font-weight: 500;
+      }
+      button{
+        margin-top: 0;
+        width: 40px;
+        height: 40px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+      }
+    }
+    .option_wrapper{
+      margin-top: 28px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      .optionItem{
+        margin-top: 28px;
+        width: 140px;
+        height: 197px;
+        h3{
+          margin-top: 10px;
+          font-weight: 600;
+          font-size: 12px;
+        }
+        p{
+          height: 55px;
+          margin-top: 10px;
+          font-size: 12px;
+          color: #B3B3B3;
+        }
+        button{
+          margin-top: 15px;
+          margin-left: 0;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          color: #000000;
+          width: 140px;
+          height: 40px;
+          background: #FFFFFF;
+          box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.15);
+          border-radius: 10px;
+        }
+      }
+    }
+  }
 }
 

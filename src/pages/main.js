@@ -9,7 +9,10 @@ import box from '../img/box.png'
 import window from '../img/window.png'
 import tools from '../img/tools_panel.png'
 
+import arrowR from '../img/arrowR.png'
+
 import PopularRender from '../components/app/popularItems/popularRender'
+import OptionRender from '../components/app/optionItem/optionRender'
 
 import '../stylesheet/css/mobile/main.css'
 
@@ -94,7 +97,9 @@ export default Main=>{
                 <div className="container">
                     <div className="caption">
                         <h2>Популярные услуги</h2>
+                        <button><img src={arrowR} alt="arrow"/></button>
                     </div>
+                    <OptionRender></OptionRender>
                 </div>
             </div>
         </div>
